@@ -1,0 +1,19 @@
+{
+  "info": {
+    "firstname": "First",
+    "lastname": "Lastname",
+    "title": "a Design Engineer",
+    "profileImagePath": "assets/profile.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut fugit suscipit delectus culpa voluptatum iure fugiat. Enim numquam animi explicabo reprehenderit eum nisi quidem, placeat ad qui, deserunt non dolore. At quidem aut minima nostrum cum eveniet odio dolor saepe reiciendis eos doloremque iusto delectus nam, repudiandae dicta reprehenderit totam dolore tenetur aperiam obcaecati rem, corrupti nisi consequuntur voluptas."
+  },
+  "connect": {
+    "email": "myemail@email.com",
+    "linkedin": "https://www.linkedin.com/",
+    "youtube": "",
+    "facebook": "",
+    "github": "",
+    "instagram": "",
+    "codepen": ""
+  },
+  "projects": {}
+}

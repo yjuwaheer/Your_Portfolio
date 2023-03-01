@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>User Portfolio</title>
+  </head>
+  <body class="bg-gray-50 flex justify-between items-center flex-col">
+    <div class="w-[1200px]">
+      <!-- NavBar -->
+      <navbar-component></navbar-component>
+
+      <!-- Hero -->
+      <div class="text-gray-900 flex justify-between items-center mb-20">
+        <div>
+          <!-- Firstname -->
+          <h1 class="text-7xl text-medium">
+            I'm <span id="firstname"></span>,
+          </h1>
+          <!-- Title -->
+          <h1 class="text-7xl text-medium">
+            <span id="title"></span>
+          </h1>
+          <!-- Description -->
+          <p
+            class="sm:w-[500px] font-bold text-gray-700 mt-10"
+            id="description"
+          ></p>
+        </div>
+
+        <div class="w-80 relative">
+          <img
+            src="assets/profile.jpg"
+            alt="profile"
+            class="w-full h-80 object-cover rounded"
+          />
+
+          <div
+            class="w-[50%] h-[50%] bg-gray-200 rounded absolute -top-[10%] -left-[5%] -z-10"
+          ></div>
+          <div
+            class="w-[50%] h-[50%] bg-gray-200 rounded absolute -bottom-[5%] -right-[5%] -z-10"
+          ></div>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div
+        class="bg-gray-100 w-full p-5 rounded flex flex-col justify-center items-center border-2 mb-20 relative"
+      >
+        <h1 class="text-6xl text-gray-900 mb-5 font-bold">Let's Chat</h1>
+
+        <h2 class="mb-8 text-4xl text-gray-800 font-medium leading-tight">Love to hear from you,<br>Get in touch &#128075;</h2>
+
+        <a
+          id="connect"
+          href=""
+          class="bg-sky-600 text-2xl p-2 text-white font-medium rounded border-4 hover:border-4 hover:border-sky-200 hover:bg-sky-700"
+        >
+          <i class="fa-solid fa-paper-plane"></i>
+          Connect
+        </a>
+
+        <!-- Background Blur -->
+        <div class="absolute inset-0 bg-blue-500 rounded -z-10 blur" id="blue"></div>
+      </div>
+
+      <script defer src="global.js"></script>
+      <script defer src="scripts/index.js"></script>
+    </div>
+  </body>
+</html>
+
+<!-- Convert from STL to GLB -->
+<!-- https://myminifactory.github.io/stl2gltf/ -->
