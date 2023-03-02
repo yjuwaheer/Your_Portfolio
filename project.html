@@ -15,16 +15,21 @@
     />
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>About</title>
+    <title>Project</title>
   </head>
   <body class="bg-gray-50 flex justify-between items-center flex-col">
-    <div class="w-[1200px]">
+    <div class="w-[1200px] mb-10">
       <!-- NavBar -->
       <navbar-component></navbar-component>
-
-      <h1>About</h1>
-
-      <script defer src="global.js"></script>
     </div>
+
+    <!-- Import the Model Viewer -->
+    <script
+      defer
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"
+    ></script>
+    <script defer src="global.js"></script>
+    <script defer src="scripts/project.js"></script>
   </body>
 </html>

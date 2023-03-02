@@ -1,4 +1,7 @@
 {
+  "general": {
+    "theme": "sky"
+  },
   "info": {
     "firstname": "First",
     "lastname": "Lastname",
@@ -15,5 +18,44 @@
     "instagram": "",
     "codepen": ""
   },
-  "projects": {}
+  "projects": [
+    {
+      "id": 1,
+      "name": "Title 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut fugit suscipit delectus culpa voluptatum iure fugiat.",
+      "images": [
+        {
+          "image": 1,
+          "imagePath": "assets/profile.jpg"
+        },
+        {
+          "image": 2,
+          "imagePath": "assets/profile.jpg"
+        }
+      ],
+      "model": "assets/chair.glb",
+      "mainImage": "assets/profile.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Title 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut fugit suscipit delectus culpa voluptatum iure fugiat.",
+      "images": [
+        {
+          "image": 1,
+          "imagePath": "assets/profile.jpg"
+        },
+        {
+          "image": 2,
+          "imagePath": "assets/profile.jpg"
+        }
+      ],
+      "model": "assets/component.glb",
+      "mainImage": "assets/profile.jpg"
+    }
+  ],
+  "featured": {
+    "enabled": true,
+    "selected": [{ "id": 1 }, { "id": 2 }]
+  }
 }
