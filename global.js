@@ -39,6 +39,22 @@ class Navbar extends HTMLElement {
                 class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-gray-600"
               ></span>
             </a>
+            ${
+              data.info?.resume !== ""
+                ? `
+                  <a
+                    href=${data.info?.resume}
+                    target="_blank"
+                    class="group text-lg mr-4 font-medium text-gray-700 transition duration-300"
+                  >Resume
+                    <i class="fa-regular fa-file"></i>
+                    <span
+                      class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-gray-600"
+                      ></span>
+                  </a>
+                `
+                : ""
+            }
           </div>
         </div>
 

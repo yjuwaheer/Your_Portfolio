@@ -3,10 +3,11 @@
     "theme": "sky"
   },
   "info": {
-    "firstname": "First",
-    "lastname": "Lastname",
-    "title": "a Design Engineer",
+    "firstname": "Firstname",
+    "lastname": "Last",
+    "title": "your Job Title",
     "profileImagePath": "assets/profile.jpg",
+    "resume": "assets/ResumeYudishJuwaheer.pdf",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut fugit suscipit delectus culpa voluptatum iure fugiat. Enim numquam animi explicabo reprehenderit eum nisi quidem, placeat ad qui, deserunt non dolore. At quidem aut minima nostrum cum eveniet odio dolor saepe reiciendis eos doloremque iusto delectus nam, repudiandae dicta reprehenderit totam dolore tenetur aperiam obcaecati rem, corrupti nisi consequuntur voluptas."
   },
   "connect": {
