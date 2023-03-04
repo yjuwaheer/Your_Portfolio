@@ -69,7 +69,9 @@ const setProjectData = () => {
       document.getElementById("p-selected-images").innerHTML = images;
     } else {
       document.getElementById("p-selected-images").classList.remove("grid");
-      document.getElementById("p-selected-images").classList.add("bg-gray-100");
+      document
+        .getElementById("p-selected-images")
+        .classList.add("flex", "justify-center", "items-center");
       document.getElementById(
         "p-selected-images"
       ).innerHTML = `<h1 class="text-center text-4xl font-bold text-gray-300">
