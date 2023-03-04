@@ -51,25 +51,16 @@
           "imagePath": "assets/profile.jpg"
         }
       ],
-      "model": "assets/component.glb",
+      "model": "",
       "mainImage": "assets/profile.jpg"
     },
     {
       "id": 3,
       "name": "Title 3",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut fugit suscipit delectus culpa voluptatum iure fugiat.",
-      "images": [
-        {
-          "image": 1,
-          "imagePath": "assets/profile.jpg"
-        },
-        {
-          "image": 2,
-          "imagePath": "assets/profile.jpg"
-        }
-      ],
-      "model": "assets/chair.glb",
-      "mainImage": "assets/profile.jpg"
+      "images": [],
+      "model": "",
+      "mainImage": ""
     }
   ],
   "featured": {

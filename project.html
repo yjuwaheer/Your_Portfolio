@@ -21,6 +21,36 @@
     <div class="w-[1200px] mb-10">
       <!-- NavBar -->
       <navbar-component></navbar-component>
+
+      <!-- Model or Image or Title -->
+      <div class="mb-10" id="p-selected-media">
+        <!-- Model Viewer element -->
+        <model-viewer
+          class="border-2 w-full h-[400px] rounded bg-gray-50"
+          alt="chair component"
+          src="assets/chair.glb"
+          shadow-intensity="1"
+          touch-action="pan-y"
+          camera-controls
+        ></model-viewer>
+      </div>
+
+      <div class="flex gap-x-10">
+        <div class="w-4/6">
+          <h1
+            class="text-4xl font-medium mb-5 text-gray-900"
+            id="p-selected-title"
+          ></h1>
+
+          <p class="text-gray-700" id="p-selected-description"></p>
+        </div>
+
+        <!-- Images -->
+        <div
+          class="w-2/6 border rounded grid grid-cols-2 p-1"
+          id="p-selected-images"
+        ></div>
+      </div>
     </div>
 
     <!-- Import the Model Viewer -->
