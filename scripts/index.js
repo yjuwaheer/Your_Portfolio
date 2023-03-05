@@ -58,7 +58,7 @@ const setHomeData = () => {
       const selectedProj = projects.filter((proj) => proj.id === project.id);
       featuredHTML += `
       <div
-        class="bg-gray-100 p-5 border rounded border-l-4 border-l-gray-500"
+        class="bg-gray-100 p-5 border rounded border-l-4 border-l-gray-500 mb-4 lg:mb-0"
       >
         <h3 class="text-3xl mb-5 text-gray-900 font-medium">${selectedProj[0].name}</h3>
         <p class="mb-5 text-gray-800">
