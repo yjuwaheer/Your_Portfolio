@@ -58,7 +58,7 @@ const setProjectData = () => {
         images += `
           <a target="_blank" href=${image.imagePath}
             ><img
-              class="rounded-md p-1 h-[200px] object-cover"
+              class="rounded-md p-1 h-[200px] w-full object-cover"
               src=${image.imagePath}
               title="Image"
               alt=""

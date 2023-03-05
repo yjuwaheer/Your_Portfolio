@@ -60,11 +60,19 @@ const setHomeData = () => {
       <div
         class="bg-gray-100 p-5 border rounded border-l-4 border-l-gray-500 mb-4 lg:mb-0"
       >
-        <h3 class="text-3xl mb-5 text-gray-900 font-medium">${selectedProj[0].name}</h3>
+        <h3 class="text-3xl mb-5 text-gray-900 font-medium">${
+          selectedProj[0].name
+        }</h3>
         <p class="mb-5 text-gray-800">
-          ${selectedProj[0].description}
+          ${
+            selectedProj[0].description.length > 100
+              ? `${selectedProj[0].description.substring(0, 100)}...`
+              : selectedProj[0].description
+          }
         </p>
-        <a href="project.html?id=${selectedProj[0].id}" class="hover:underline underline-offset-2 text-gray-800">
+        <a href="project.html?id=${
+          selectedProj[0].id
+        }" class="hover:underline underline-offset-2 text-gray-800">
           View Project
           <i class="fa-solid fa-circle-arrow-right"></i>
         </a>
