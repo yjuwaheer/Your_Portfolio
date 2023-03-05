@@ -10,7 +10,7 @@ class Navbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <nav
-        class="flex justify-between items-center mb-20 mt-3 p-3 bg-gray-100 border rounded"
+        class="flex justify-between items-center mb-10 mt-3 p-3 bg-gray-100 border rounded"
       >
         <!-- Left -->
         <div class="flex items-center">
