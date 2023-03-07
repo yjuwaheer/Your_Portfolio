@@ -47,10 +47,10 @@ const setHomeData = () => {
   }
 
   // Set Featured
-  if (!homeData.featured?.enabled) {
+  if (!homeData.featured?.enabled || homeData.projects?.length === 0) {
     document.getElementById("featured").classList.add("hidden");
   }
-  if (homeData.featured?.enabled && homeData.projects.length !== 0) {
+  if (homeData.featured?.enabled && homeData.projects?.length !== 0) {
     let featuredHTML = "";
     const projects = homeData.projects;
     homeData.featured?.selected.forEach((project) => {

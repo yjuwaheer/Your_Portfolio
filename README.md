@@ -98,5 +98,7 @@ Instructions:
 
 ---
 
+## Open to contributions, new features, code refactoring etc... <--
+
 ### Todo:
 - [ ] Add favicon field.

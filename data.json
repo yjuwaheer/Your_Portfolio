@@ -7,7 +7,7 @@
     "lastname": "Last",
     "title": "your Job Title",
     "profileImagePath": "assets/profile.jpg",
-    "resume": "assets/Resume.pdf",
+    "resume": "assets/resume.pdf",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut fugit suscipit delectus culpa voluptatum iure fugiat. Enim numquam animi explicabo reprehenderit eum nisi quidem, placeat ad qui, deserunt non dolore. At quidem aut minima nostrum cum eveniet odio dolor saepe reiciendis eos doloremque iusto delectus nam, repudiandae dicta reprehenderit totam dolore tenetur aperiam obcaecati rem, corrupti nisi consequuntur voluptas."
   },
   "connect": {
@@ -26,13 +26,13 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut fugit suscipit delectus culpa voluptatum iure fugiat.",
       "images": [
         {
-          "imagePath": "assets/profile.jpg"
+          "imagePath": "assets/chair1.jpg"
         },
         {
-          "imagePath": "assets/profile.jpg"
+          "imagePath": "assets/chair2.jpg"
         },
         {
-          "imagePath": "assets/profile.jpg"
+          "imagePath": "assets/chair3.jpg"
         }
       ],
       "model": "assets/chair.glb",
