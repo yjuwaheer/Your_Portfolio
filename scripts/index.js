@@ -16,6 +16,8 @@ const setHomeData = () => {
     // Set Profile Picture if path specified
     if (homeData.info?.profileImagePath === "") {
       document.getElementById("profile-container").classList.add("hidden");
+      document.getElementById("info-container").className = "w-full";
+      document.getElementById("description").classList.remove("md:w-[500px]");
     } else {
       document.getElementById("profile").src = homeData.info?.profileImagePath;
     }
