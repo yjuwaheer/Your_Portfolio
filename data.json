@@ -7,7 +7,7 @@
     "lastname": "Last",
     "title": "your Job Title",
     "profileImagePath": "assets/profile.jpg",
-    "resume": "assets/ResumeYudishJuwaheer.pdf",
+    "resume": "assets/Resume.pdf",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut fugit suscipit delectus culpa voluptatum iure fugiat. Enim numquam animi explicabo reprehenderit eum nisi quidem, placeat ad qui, deserunt non dolore. At quidem aut minima nostrum cum eveniet odio dolor saepe reiciendis eos doloremque iusto delectus nam, repudiandae dicta reprehenderit totam dolore tenetur aperiam obcaecati rem, corrupti nisi consequuntur voluptas."
   },
   "connect": {
@@ -26,11 +26,12 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut fugit suscipit delectus culpa voluptatum iure fugiat.",
       "images": [
         {
-          "image": 1,
           "imagePath": "assets/profile.jpg"
         },
         {
-          "image": 2,
+          "imagePath": "assets/profile.jpg"
+        },
+        {
           "imagePath": "assets/profile.jpg"
         }
       ],
@@ -43,11 +44,9 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut fugit suscipit delectus culpa voluptatum iure fugiat.",
       "images": [
         {
-          "image": 1,
           "imagePath": "assets/profile.jpg"
         },
         {
-          "image": 2,
           "imagePath": "assets/profile.jpg"
         }
       ],
