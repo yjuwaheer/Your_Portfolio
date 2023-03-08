@@ -18,7 +18,9 @@ Use this template to create a portfolio of your own by modifying the `data.json`
       Your_Portfolio-->scripts;
 ```
 
-`TIP`: Give each asset a descriptive name
+`TIPs`: 
+- Give each asset a descriptive name
+- Compress your images for faster load time
 
 # `data.json` Structure
 
@@ -101,6 +103,8 @@ Instructions:
 - Click `Add new site`
 - Select `Deploy manually`
 - Drag & drop your portfolio website folder and voila, you portfolio should be live
+
+`NOTE`: Initial load on Netlify can take a bit longer if the website has not been visited for some time.
 
 ---
 
