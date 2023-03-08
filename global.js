@@ -167,14 +167,20 @@ const configureMenuBurger = () => {
             class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-gray-600"
           ></span>
         </a>
-        <a
-          href="/projects.html"
-          class="group text-2xl font-medium text-gray-700 transition duration-300 mb-5"
-          >Projects
-          <span
-            class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-gray-600"
-          ></span>
-        </a>
+        ${
+          data.projects?.length !== 0
+            ? `
+              <a
+                href="/projects.html"
+                class="group text-2xl font-medium text-gray-700 transition duration-300 mb-5"
+                >Projects
+                <span
+                  class="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-gray-600"
+                ></span>
+              </a>
+            `
+            : ""
+        }
         ${
           data.info?.resume !== ""
             ? `
