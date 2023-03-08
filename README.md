@@ -2,6 +2,12 @@
 
 Use this template to create a portfolio of your own by modifying the `data.json` file.
 
+# Get Started
+
+- Click on `Code` and download the ZIP folder.
+- Unzip and modify `data.json`.
+- Upload entire folder to a hosting provider like `Netlify` and have a live portfolio within minutes.
+
 # Folder Structure
 
 ```mermaid
